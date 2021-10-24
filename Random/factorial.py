@@ -29,3 +29,8 @@ else:
         print("Error, connot compute nagative factorials")
 
 
+num = 1
+n = int(input("   ---   "))
+for i in range(2, n + 1):
+    num = num * i
+print(num)
